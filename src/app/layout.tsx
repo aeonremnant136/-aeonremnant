@@ -85,8 +85,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   {/* 이미지 저장 방지 — 메뉴 관리 > 권한에서 영역별 지정 (v1.9) */}
                   <ImgProtect />
                   {/* 브라우저 탭 제목 — 디자인 탭에서 지정 (v1.9) */}
-                  <DocTitle />
-                  <DocIcon />
+                  {/* <DocTitle /> */}
+                  {/* <DocIcon /> */}
                   {/* 설정이 서버에 저장되지 않았을 때 알림 (v2.0) — 조용히 실패하면 원인을 알 수 없다 */}
                   <SettingSync />
                   {/* 글·댓글 저장이 거부됐을 때 이유를 알림 (v2.0) — 조용히 되돌리면 스스로 사라진 것처럼 보인다 */}
